@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Mi Biblioteca</string>
+    <string name="titulo">registro</string>
+    <string name="cedula">Cédula</string>
+    <string name="correo_electronico">Correo Electrónico</string>
+    <string name="Contrasena">Contraseña</string>
+    <string name="repita_contrasena">Repetir Contraseña</string>
+    <string name="guardar">Registrar</string>
+    <string name="nombre">Nombre</string>
+    <string name="error_contrasenas">las contraseñas no coinciden</string>
+    <string name="genero">Genero</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+    <string name="pasatiempos">Pasatiempos</string>
+    <string name="cine">Cine</string>
+    <string name="ps4">PS4</string>
+    <string name="series">Series</string>
+    <string name="ciudad_nacimiento">Ciudad de nacimiento</string>
+    <string name="Fecha_nacimiento">MM/dd/yyyy</string>
+    <string name="Fecha">Fecha de Nacimiento</string>
+    <string name="otra_actividad">otra_actividad</string>
+    <string name="otra_actividad_mas">otra actividad mas</string>
+    <string name="telefono">Teléfono</string>
+    <string name="ver_tv">Ver TV</string>
+    <string name="facebook">Facebook</string>
+    <string name="Login" />
+    <string name="login">Login</string>
+    <string name="ht_correo">Correo Electrónico</string>
+    <string name="ht_contraseña">Contraseña</string>
+    <string name="ir_registro"><u>Registrarse</u></string>
+    <string name="ingresar">login</string>
+    <string name="creadores">Juan Pablo Escobar Arenas \nLeonardo Fuentes Bohórquez</string>
+    <string name="im_bt_desc">imagen_cal</string>
+    <string name="log_im">holi</string>
+    <string name="logo_splash">logo</string>
+    <string-array name="lista_de_ciudades">
+        <item>Medellín</item>
+        <item>Bogotá</item>
+        <item>Bucaramanga</item>
+        <item>San Gil</item>
+        <item>Villanueva</item>
+        <item>Barichara</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:requiresFadingEdge="none"
+        tools:context=".loginActivity"
+        tools:layout_editor_absoluteY="1dp"
+        tools:visibility="visible">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="145dp"
+            android:layout_height="148dp"
+            android:layout_marginTop="48dp"
+            android:contentDescription="@string/log_im"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/user" />
+
+        <Button
+            android:id="@+id/bt_registro"
+            android:layout_width="95dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="12dp"
+            android:background="@android:color/background_light"
+            android:elegantTextHeight="true"
+            android:fadingEdge="none"
+            android:hapticFeedbackEnabled="false"
+            android:stateListAnimator="@null"
+            android:text="@string/ir_registro"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/azul_login"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_contrasena_login" />
+
+        <EditText
+            android:id="@+id/et_correo_login"
+            android:layout_width="242dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="40dp"
+            android:autofillHints="null"
+            android:ems="10"
+            android:hint="@string/ht_correo"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <EditText
+            android:id="@+id/et_contrasena_login"
+            android:layout_width="243dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="12dp"
+            android:autofillHints="null"
+            android:ems="10"
+            android:hint="@string/ht_contraseña"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_correo_login" />
+
+        <Button
+            android:id="@+id/bt_tomain"
+            android:layout_width="243dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="32dp"
+            android:background="@color/azul_login"
+            android:text="@string/ingresar"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bt_registro"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
